@@ -1,1 +1,1 @@
-<img src="">test</img>
+Bienvenue sur mon projet de BAC durant la terminale STI2D option SIN. Vous trouverez ici toutes les sources pour vous aussi pouvoir ouvrir et fermer un portail automatique selon des heures prédéfinis par un responsable via une interface web. Merci @ bientôt sur le web
