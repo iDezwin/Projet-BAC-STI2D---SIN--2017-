@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?><project name="Echéancier Projet BAC 2017  ETS-SIN" company="Lycée La Salle - Groupe Saint Joseph" webLink="http://lasalle-troyes.fr/" view-date="2017-04-01" view-index="0" gantt-divider-location="322" resource-divider-location="300" version="2.7.2" locale="fr">
+    <description><![CDATA[Parc Des Moulins
+1 Rue des Ponts
+10000 Troyes
+
+Énoncé général du besoin :
+Augmenter l’attractivité de l’Éco-Parc des Moulins en développant des activités culturelles et de loisirs tout en s’inscrivant dans une démarche d’éco-conception et/ou de développement durable]]></description>
+    <view zooming-state="default:8" id="gantt-chart">
+        <field id="tpd3" name="Nom" width="48" order="0"/>
+        <field id="tpd4" name="Date de début" width="18" order="1"/>
+        <field id="tpd5" name="Date de fin" width="32" order="2"/>
+        <option id="taskLabelUp" value="resources"/>
+        <option id="taskLabelDown" value="name"/>
+        <option id="taskLabelLeft" value="advancement"/>
+        <timeline><![CDATA[12]]></timeline>
+    </view>
+    <view id="resource-table">
+        <field id="0" name="Nom" width="50" order="0"/>
+        <field id="1" name="Rôle par défaut" width="49" order="1"/>
+    </view>
+    <!-- -->
+    <calendars>
+        <day-types>
+            <day-type id="0"/>
+            <day-type id="1"/>
+            <default-week id="1" name="default" sun="1" mon="0" tue="0" wed="0" thu="0" fri="0" sat="1"/>
+            <only-show-weekends value="false"/>
+            <overriden-day-types/>
+            <days/>
+        </day-types>
+    </calendars>
+    <tasks empty-milestones="true">
+        <taskproperties>
+            <taskproperty id="tpd0" name="type" type="default" valuetype="icon"/>
+            <taskproperty id="tpd1" name="priority" type="default" valuetype="icon"/>
+            <taskproperty id="tpd2" name="info" type="default" valuetype="icon"/>
+            <taskproperty id="tpd3" name="name" type="default" valuetype="text"/>
+            <taskproperty id="tpd4" name="begindate" type="default" valuetype="date"/>
+            <taskproperty id="tpd5" name="enddate" type="default" valuetype="date"/>
+            <taskproperty id="tpd6" name="duration" type="default" valuetype="int"/>
+            <taskproperty id="tpd7" name="completion" type="default" valuetype="int"/>
+            <taskproperty id="tpd8" name="coordinator" type="default" valuetype="text"/>
+            <taskproperty id="tpd9" name="predecessorsr" type="default" valuetype="text"/>
+        </taskproperties>
+        <task id="0" name="Spécification / Planification" color="#8cb6ce" meeting="false" start="2016-11-15" duration="4" complete="0" expand="true">
+            <notes><![CDATA[1. Mise en situation (contextualisation).
+2. Appropriation et redéfinition éventuelle du cahier des charges.
+3. Analyse fonctionnelle de parties techniques déjà existantes sur site.
+4. Recherche, analyse et décodage de documentation.
+5. Décomposition des tâches (découpage du projet en fonctions élémentaires).
+6. Création de l'échéancier (planification du projet).]]></notes>
+        </task>
+        <task id="1" name="Conception préliminaire" color="#9999ff" shape="0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0" meeting="false" start="2016-11-21" duration="19" complete="0" expand="true">
+            <notes><![CDATA[1. Recherche de différentes solutions technologiques (identification des données entrantes et sortantes de la chaine d'information).
+2. Etude fonctionnelle des différentes solutions technologiques envisagées.
+3. Etude comparative des différentes solutions technologiques envisagées.
+4. Choix et validation de la solution technologique retenue.
+5. Synthèse structurelle simplifiée (matérielle et/ou logicielle) de la solution technologique retenue (SysML, chaîne d'information, schémas, croquis, modélisation, maquette numérique …).
+6. Préparation de la première revue de projet.
+]]></notes>
+        </task>
+        <task id="18" name="Vacances de Noël" color="#00cc00" meeting="false" start="2016-12-19" duration="12" complete="0" expand="true"/>
+        <task id="2" name="Revue de projet N°1" color="#cc0000" meeting="false" start="2017-01-04" duration="9" complete="0" expand="true">
+            <notes><![CDATA[1. Présentation du groupe de projet.
+2. Mise en situation, contextualisation du projet.
+3. Problématique à résoudre et décomposition des tâches à réaliser.
+4. Présentation de différentes solutions technologiques permettant de résoudre la problématique.
+5. Présentation de l’étude comparative des différentes solutions technologiques envisagées.
+6. Choix de la solution technologique retenue.
+7. Synthèse structurelle simplifiée de la solution technologique retenue (en fonction de l’avancement dans le projet).
+8. En quoi la solution technologique retenue s’inscrit-elle dans une démarche d’éco-conception et/ou de développement durable ?
+]]></notes>
+        </task>
+        <task id="4" name="Conception détaillée" color="#0033ff" meeting="false" start="2017-01-04" duration="28" complete="0" expand="true">
+            <notes><![CDATA[1. Synthèse structurelle complète (matérielle et ou logicielle) de la solution technologique retenue (SysML, schémas, algorigrammes, maquette numérique …).
+2. Simulation numérique des structures matérielles mises en œuvre dans la solution technologique retenue (logiciels spécifiques).
+3. Développement et/ou paramétrage d'applications logicielles permettant de gérer de façon automatique les différentes structures mises en œuvre dans la solution technologique retenue (composants programmables intégrés, serveur web, serveur ftp ...).
+4. Choix des composants, matériels et logiciels à acquérir pour la mise en œuvre de la solution technologique retenue afin d'éditer un bon de commande chiffré.
+5. Préparation de la deuxième revue de projet.
+]]></notes>
+        </task>
+        <task id="43" name="BAC Blanc" color="#8cb6ce" meeting="false" start="2017-01-30" duration="5" complete="0" expand="true"/>
+        <task id="29" name="Vacances d'hiver" color="#00cc00" meeting="false" start="2017-02-13" duration="10" complete="0" expand="true"/>
+        <task id="6" name="Revue de projet N°2" color="#cc0000" meeting="false" start="2017-02-27" duration="8" complete="0" expand="true">
+            <notes><![CDATA[1.Contextualisation du projet technologique.
+2. Tâches réalisées depuis le début du projet sous forme d’un échéancier.
+3. Les structures matérielles et/ou logicielles retenues.
+-----3.1. Schémas fonctionnels de la solution technologique retenue.
+-----3.2. Schémas structurels des cartes électroniques et/ou des systèmes informatiques.
+-----3.3. Algorigrammes de fonctionnement des structures micro-programmées.
+-----3.4. Microcontrôleurs choisis.
+-----3.5. Listing des programmes sources rédigés et utilisés pour la programmation des composants.
+4. Résultats de simulations des structures matérielles et/ou logicielles retenues.
+5. Bons de commandes chiffrés des composants et/ou des matériels électroniques ou informatiques choisis.
+6. Difficultés rencontrées entre les deux revues de projet.
+7. Prochaines tâches à réaliser pour mener à bien la conduite du projet.]]></notes>
+        </task>
+        <task id="7" name="Prototypage / Réalisation" color="#ffff00" meeting="false" start="2017-02-27" duration="30" complete="0" expand="true">
+            <notes><![CDATA[1. Production des documents numériques nécessaires à la fabrication d'un ou plusieurs éléments du système technique (typon, plan d'implantation, plan de perçage ...).
+2. Fabrication d'un ou plusieurs éléments du système technique (carte électronique, interconnexion de composants, implantation de composants dans une armoire ...).
+3. Amélioration et/ou modification des applications logicielles permettant de gérer de façon automatique une ou plusieurs parties du système technique.
+4. Implantation des programmes dans les composants programmables spécialisés.
+5. Interconnexion des différentes fonctions distribuées au sein du système technique (fonctions matérielles et/ou logicielles).
+6. Programmation des interfaces de communication (site web intégré à des matériels informatiques , composants spécifiques programmables …).
+]]></notes>
+        </task>
+        <task id="36" name="Vacances de printemps" color="#00ff00" meeting="false" start="2017-04-10" duration="10" complete="0" expand="true"/>
+        <task id="9" name="Qualification / Intégration / Validation" color="#ffff66" meeting="false" start="2017-04-24" duration="15" complete="0" expand="true">
+            <notes><![CDATA[1. Intégration et configuration des différents éléments constitutifs du système technique puis formalisation d'un protocole d'essai.
+2. Essais et mesures sur les différents éléments  du système technique afin de vérifier le bon fonctionnement de ceux-ci.
+3. Analyse des résultats et des écarts afin de proposer des remédiations ou des améliorations.
+4. Validation  de la solution technologique retenue au regard des spécifications du cahier des charges.
+5. Préparation de la troisième revue de projet.
+]]></notes>
+        </task>
+        <task id="10" name="Revue de Projet N°3" color="#cc0000" meeting="false" start="2017-04-24" duration="13" complete="0" expand="true">
+            <notes><![CDATA[1. Problématique à résoudre.
+2. Problématique à résoudre et décomposition des tâches à réaliser.
+-----2.1. Schéma synoptique.
+3. Organisation fonctionnelle de la solution technologique retenue (SysML).
+-----3.1. Use Case Diagram (Diagramme de cas d’utilisations).
+-----3.2. Sequence Diagram (Diagramme de séquence).
+-----3.3. Block Definition Diagram (Diagramme de définition de bloc).
+-----3.4. Internal Block Diagram ( Diagramme de bloc interne).
+4. Organisation structurelle de la solution technologique retenue.
+-----4.1. Schémas structurels.
+5. Algorigrammes de programmation.
+6. Résultats des simulations et/ou des expérimentations logicielles ou matérielles.
+7. Présentation des solutions constructives réalisées.
+-----7.1. Schémas de câblage.
+8. Résultats des tests effectués sur les solutions constructives mises en œuvre.
+9. Comment la solution technologique retenue s’inscrit-elle dans une démarche d’éco-conception et/ou de développement durable ?
+]]></notes>
+        </task>
+        <task id="12" name="Préparation de la présentation du projet devant le jury" color="#8cb6ce" meeting="false" start="2017-05-15" duration="13" complete="0" expand="true"/>
+    </tasks>
+    <resources/>
+    <allocations/>
+    <vacations/>
+    <taskdisplaycolumns>
+        <displaycolumn property-id="tpd2" order="-1" width="75" visible="false"/>
+        <displaycolumn property-id="tpd7" order="-1" width="75" visible="false"/>
+        <displaycolumn property-id="tpd12" order="-1" width="75" visible="false"/>
+        <displaycolumn property-id="tpd3" order="0" width="147" visible="true"/>
+        <displaycolumn property-id="tpd4" order="1" width="57" visible="true"/>
+        <displaycolumn property-id="tpd5" order="2" width="98" visible="true"/>
+        <displaycolumn property-id="tpd6" order="-1" width="75" visible="false"/>
+        <displaycolumn property-id="tpd10" order="-1" width="75" visible="false"/>
+        <displaycolumn property-id="tpd11" order="-1" width="75" visible="false"/>
+        <displaycolumn property-id="tpd1" order="-1" width="75" visible="false"/>
+        <displaycolumn property-id="tpd9" order="-1" width="75" visible="false"/>
+        <displaycolumn property-id="tpd8" order="-1" width="75" visible="false"/>
+        <displaycolumn property-id="tpd13" order="-1" width="75" visible="false"/>
+        <displaycolumn property-id="tpd0" order="-1" width="75" visible="false"/>
+    </taskdisplaycolumns>
+    <previous/>
+    <roles roleset-name="Default"/>
+    <roles roleset-name="SoftwareDevelopment"/>
+</project>
