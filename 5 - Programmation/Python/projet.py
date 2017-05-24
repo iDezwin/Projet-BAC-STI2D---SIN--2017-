@@ -108,9 +108,9 @@ def auto():
             	GPIO.output(10, False)
 
 
-		if day == 2:
+	if day == 2:
             
-			print("Mode automatique")
+	    print("Mode automatique")
 
             midnight = datetime.datetime.combine(datetime.date.today(), datetime.time.min)
             now_relative = datetime.datetime.now() - midnight
@@ -180,7 +180,7 @@ def auto():
             	GPIO.output(10, False)
 
 
-		if day == 3:
+	if day == 3:
             
 			print("Mode automatique")
 
